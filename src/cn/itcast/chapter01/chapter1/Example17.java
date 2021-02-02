@@ -1,0 +1,16 @@
+package cn.itcast.chapter01.chapter1;
+
+public class Example17 {
+    public static void main(String[] args) {
+        int i, j;                        // 定义变量i，j
+        sign:for (i = 1; i <= 9; i++) {  // 外层循环
+            for (j = 1; j <= i; j++) {  // 内层循环
+                if (i > 4) {        // 判断i的值是否大于4
+                    break sign;     // 跳出外层循环
+                }
+                System.out.print("*");    // 内层循环打印*
+            }
+            System.out.print("\n");    // 外层循环执行换行
+        }
+    }
+}
