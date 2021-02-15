@@ -1,6 +1,6 @@
 package cn.itcast.chapter00;
 
-public class Example01 {
+public class practice01 {
     public static void main(String[] args) {
         int i;
         long[] arr = new long[36];
