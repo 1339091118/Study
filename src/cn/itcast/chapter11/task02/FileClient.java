@@ -7,7 +7,7 @@ public class FileClient {
     public static void main(String[] args) throws Exception {
         Socket socket = new Socket("127.0.0.1", 10001);
         OutputStream out = socket.getOutputStream();
-        FileInputStream fis = new FileInputStream("D:\\1.jpg");
+        FileInputStream fis = new FileInputStream("");
         byte[] buf = new byte[1024];
         int len;
         while ((len = fis.read(buf)) != -1) {

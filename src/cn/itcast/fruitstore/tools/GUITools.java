@@ -5,8 +5,8 @@ import java.awt.Component;
 import java.awt.Toolkit;
 
 /*
-* 工具类
-* */
+ * 工具类
+ * */
 public class GUITools {
     // JAVA提供的GUI默认工具类对象
     static Toolkit kit = Toolkit.getDefaultToolkit();

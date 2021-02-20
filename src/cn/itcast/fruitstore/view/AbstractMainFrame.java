@@ -1,5 +1,6 @@
 package cn.itcast.fruitstore.view;
 
+
 import cn.itcast.fruitstore.tools.GUITools;
 
 import javax.swing.ImageIcon;
@@ -17,7 +18,7 @@ import java.awt.event.ActionListener;
 @SuppressWarnings("serial")
 public abstract class AbstractMainFrame extends JFrame {
     // 组件
-    private JLabel titleLabel = new JLabel(new ImageIcon("1.jpg"));
+    private JLabel titleLabel = new JLabel(new ImageIcon(""));
     private JButton btn = new JButton("进入系统"); // 顾客按钮
 
     // 构造函数
@@ -32,7 +33,7 @@ public abstract class AbstractMainFrame extends JFrame {
         this.setTitle("水果超市欢迎您！");      // 标题
         this.setSize(600, 410); // 窗体大小与位置
         GUITools.center(this);            // 设置窗口在屏幕上的位置
-        GUITools.setTitleImage(this, "1.jpg");
+        GUITools.setTitleImage(this, "");
         this.setResizable(false);            // 窗体大小固定
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // 关闭窗口默认操作
     }
